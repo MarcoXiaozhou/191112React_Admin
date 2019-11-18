@@ -1,6 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## git管理项目开发
+1、创建远程仓库  
+2、创建本地仓库  
+&ensp;&ensp;  a. 配置.gitignore  
+&ensp;&ensp;  b. git init  
+&ensp;&ensp;  c. git add  
+&ensp;&ensp;  d. git commit -m "init"  
+3、将本地仓库推送到远程仓库  
+&ensp;&ensp;  git remote add origin url  
+&ensp;&ensp; git push origin master  
+4、在本地创建Dev分支，并推送到远程  
+&ensp;&ensp;  git checkout -b dev  
+&ensp;&ensp;  git push origin dev  
+5、如果本地有修改  
+&ensp;&ensp;  git add .  
+&ensp;&ensp;  git commit -m "xxx"  
+6、新的同事：克隆仓库  
+&ensp;&ensp;  git clone url  
+&ensp;&ensp;  git checkout -b dev origin/dev  
+&ensp;&ensp;  git pull origin dev  
+7、如果远程修改  
+ &ensp;&ensp; git pull origin dev  
 
 In the project directory, you can run:
 
